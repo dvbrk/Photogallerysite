@@ -1,16 +1,4 @@
-/* =================================
-------------------------------------
-  Photo Gallery HTML Template
-  Version: 1.0
- ------------------------------------
- ====================================*/
 
-
-
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
 
 html,
 body {
@@ -1517,7 +1505,15 @@ ol {
 		width: 100%;
 	}
 }
+ table caption {
+    border-bottom: 1px solid #ddd;
+  }
+}
 
+.p {
+  text-align: center;
+  padding-top: 140px;
+  font-size: 14px;
 /* Medium Mobile :480px. */
 
 @media only screen and (min-width: 576px) and (max-width: 766px) {
